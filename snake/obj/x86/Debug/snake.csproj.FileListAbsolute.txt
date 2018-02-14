@@ -1,0 +1,5 @@
+/home/nohlp/Projects/snake/snake/bin/Debug/snake.exe
+/home/nohlp/Projects/snake/snake/bin/Debug/snake.pdb
+/home/nohlp/Projects/snake/snake/obj/x86/Debug/snake.csproj.CoreCompileInputs.cache
+/home/nohlp/Projects/snake/snake/obj/x86/Debug/snake.exe
+/home/nohlp/Projects/snake/snake/obj/x86/Debug/snake.pdb
