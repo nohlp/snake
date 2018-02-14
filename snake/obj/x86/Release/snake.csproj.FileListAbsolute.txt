@@ -1,0 +1,3 @@
+/home/nohlp/Projects/snake/snake/bin/Release/snake.exe
+/home/nohlp/Projects/snake/snake/obj/x86/Release/snake.csproj.CoreCompileInputs.cache
+/home/nohlp/Projects/snake/snake/obj/x86/Release/snake.exe
