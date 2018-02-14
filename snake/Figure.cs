@@ -10,13 +10,8 @@ namespace nohlp_snake
     {
         protected List<Point> plist;
 
-        public Figure()
+        public void Drow()
         {
-        }
-
-        public void Draw()
-        {
-
             foreach (Point p in plist)
             {
                 p.Draw();

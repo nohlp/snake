@@ -1,16 +1,20 @@
 ﻿<Properties StartupConfiguration="{5FD29A8A-F500-4089-8542-D335C8688F21}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Figure.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Snake.cs">
     <Files>
-      <File FileName="Program.cs" Line="29" Column="60" />
-      <File FileName="Point.cs" Line="23" Column="1" />
-      <File FileName="HorizontalLine.cs" Line="18" Column="1" />
+      <File FileName="Program.cs" Line="37" Column="44" />
+      <File FileName="Point.cs" Line="32" Column="21" />
+      <File FileName="HorizontalLine.cs" Line="22" Column="1" />
       <File FileName="VerticalLine.cs" Line="2" Column="1" />
-      <File FileName="Figure.cs" Line="6" Column="1" />
+      <File FileName="Figure.cs" Line="2" Column="1" />
+      <File FileName="Snake.cs" Line="18" Column="16" />
+      <File FileName="Direction.cs" Line="4" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/home/nohlp/Projects/snake/snake/Program.cs" relfile="Program.cs" line="37" column="60" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

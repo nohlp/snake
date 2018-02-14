@@ -28,11 +28,16 @@ namespace nohlp_snake
             VerticalLine leftline = new VerticalLine(0, 20, 0, '+');
             VerticalLine rightline = new VerticalLine(0, 20, 78, '+');
 
-            upline.Draw();
-            downline.Draw();
-            leftline.Draw();
-            rightline.Draw();
+            upline.Drow();
+            downline.Drow();
+            leftline.Drow();
+            rightline.Drow();
 
+
+            Point p = new Point(4, 5, '*');
+
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            //snake.Drow();
         }
 
 

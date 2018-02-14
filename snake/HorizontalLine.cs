@@ -13,7 +13,6 @@ namespace nohlp_snake
         {
             plist = new List<Point>();
             for (int x = xleft; x <= xright;x++){
-
                 Point p = new Point(x, y, sym);
                 plist.Add(p);
             }
