@@ -17,9 +17,13 @@ namespace nohlp_snake
                 Point p = new Point(tail);
                 p.Move(i, direction);
                 plist.Add(p);
-                p.Draw();
+                //p.Draw();
             }
         }
 
+        internal void Move()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
