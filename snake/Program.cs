@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace nohlp_snake
 {
@@ -8,31 +11,27 @@ namespace nohlp_snake
 
         public static void Main(string[] args)
         {
+            /*
+            Console.SetWindowSize(80,80);
             Point p1 = new Point(1,3,'*');
-
-            Point p2 = new Point(4, 6, '#');
-
             p1.Draw();
 
+            Point p2 = new Point(4, 6, '#');
             p2.Draw();
+            */
             //Console.ReadLine();
 
-            List<int> numlist = new List<int>();
-            numlist.Add(0);
-            numlist.Add(1);
-            numlist.Add(2);
 
-            int x = numlist[0];
-            int y = numlist[1];
-            int z = numlist[2];
 
-            foreach(int i in numlist){
-                Console.WriteLine(numlist[i]);
-            }
+            HorizontalLine upline = new HorizontalLine(0,78,0,'+');
+            HorizontalLine downline = new HorizontalLine(0, 78, 20, '+');
+            VerticalLine leftline = new VerticalLine(0, 20, 0, '+');
+            VerticalLine rightline = new VerticalLine(0, 20, 78, '+');
 
-            List<Point> plist = new List<Point>();
-            plist.Add(p1);
-            plist.Add(p2);
+            upline.Draw();
+            downline.Draw();
+            leftline.Draw();
+            rightline.Draw();
 
         }
 

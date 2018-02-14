@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{5FD29A8A-F500-4089-8542-D335C8688F21}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Figure.cs">
     <Files>
-      <File FileName="Program.cs" Line="28" Column="13" />
-      <File FileName="Point.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="29" Column="60" />
+      <File FileName="Point.cs" Line="23" Column="1" />
+      <File FileName="HorizontalLine.cs" Line="18" Column="1" />
+      <File FileName="VerticalLine.cs" Line="2" Column="1" />
+      <File FileName="Figure.cs" Line="6" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
@@ -11,4 +14,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.snake PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
