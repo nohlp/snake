@@ -25,6 +25,15 @@ namespace nohlp_snake
             int x = numlist[0];
             int y = numlist[1];
             int z = numlist[2];
+
+            foreach(int i in numlist){
+                Console.WriteLine(numlist[i]);
+            }
+
+            List<Point> plist = new List<Point>();
+            plist.Add(p1);
+            plist.Add(p2);
+
         }
 
 
